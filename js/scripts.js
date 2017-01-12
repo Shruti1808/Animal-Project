@@ -11,6 +11,8 @@ $(document).ready(function() {
 
     if (animal==="turtles") {
       $(".turtles").show();
+      $(".snakes .insects").hide();
+
     } else if (animal==="snakes") {
       $(".snakes").show();
     } else if (animal==="insects") {
